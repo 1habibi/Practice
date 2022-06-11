@@ -1,0 +1,23 @@
+C:\Users\migun\Desktop\onemoretry\onemoretry\bin\Debug\onemoretry.exe.config
+C:\Users\migun\Desktop\onemoretry\onemoretry\bin\Debug\onemoretry.exe
+C:\Users\migun\Desktop\onemoretry\onemoretry\bin\Debug\onemoretry.pdb
+C:\Users\migun\Desktop\onemoretry\onemoretry\obj\Debug\onemoretry.csproj.AssemblyReference.cache
+C:\Users\migun\Desktop\onemoretry\onemoretry\obj\Debug\onemoretry.Form1.resources
+C:\Users\migun\Desktop\onemoretry\onemoretry\obj\Debug\onemoretry.Properties.Resources.resources
+C:\Users\migun\Desktop\onemoretry\onemoretry\obj\Debug\onemoretry.csproj.GenerateResource.cache
+C:\Users\migun\Desktop\onemoretry\onemoretry\obj\Debug\onemoretry.csproj.CoreCompileInputs.cache
+C:\Users\migun\Desktop\onemoretry\onemoretry\obj\Debug\onemoretry.exe
+C:\Users\migun\Desktop\onemoretry\onemoretry\obj\Debug\onemoretry.pdb
+C:\Users\migun\Desktop\onemoretry\onemoretry\obj\Debug\onemoretry.AddForm.resources
+C:\Users\migun\Desktop\onemoretry — копия\onemoretry\bin\Debug\onemoretry.exe.config
+C:\Users\migun\Desktop\onemoretry — копия\onemoretry\bin\Debug\onemoretry.exe
+C:\Users\migun\Desktop\onemoretry — копия\onemoretry\bin\Debug\onemoretry.pdb
+C:\Users\migun\Desktop\onemoretry — копия\onemoretry\obj\Debug\onemoretry.csproj.AssemblyReference.cache
+C:\Users\migun\Desktop\onemoretry — копия\onemoretry\obj\Debug\onemoretry.AddForm.resources
+C:\Users\migun\Desktop\onemoretry — копия\onemoretry\obj\Debug\onemoretry.Form1.resources
+C:\Users\migun\Desktop\onemoretry — копия\onemoretry\obj\Debug\onemoretry.Properties.Resources.resources
+C:\Users\migun\Desktop\onemoretry — копия\onemoretry\obj\Debug\onemoretry.csproj.GenerateResource.cache
+C:\Users\migun\Desktop\onemoretry — копия\onemoretry\obj\Debug\onemoretry.csproj.CoreCompileInputs.cache
+C:\Users\migun\Desktop\onemoretry — копия\onemoretry\obj\Debug\onemoretry.exe
+C:\Users\migun\Desktop\onemoretry — копия\onemoretry\obj\Debug\onemoretry.pdb
+C:\Users\migun\Desktop\onemoretry — копия\onemoretry\obj\Debug\onemoretry.Ex1.resources
