@@ -11,3 +11,17 @@ C:\Users\migun\Desktop\onemoretry — копия\onemoretry\obj\Debug\Practice.c
 C:\Users\migun\Desktop\onemoretry — копия\onemoretry\obj\Debug\Practice.csproj.CoreCompileInputs.cache
 C:\Users\migun\Desktop\onemoretry — копия\onemoretry\obj\Debug\onemoretry.exe
 C:\Users\migun\Desktop\onemoretry — копия\onemoretry\obj\Debug\onemoretry.pdb
+C:\Users\migun\Documents\GitHub\Practice\onemoretry\bin\Debug\onemoretry.exe.config
+C:\Users\migun\Documents\GitHub\Practice\onemoretry\bin\Debug\onemoretry.exe
+C:\Users\migun\Documents\GitHub\Practice\onemoretry\bin\Debug\onemoretry.pdb
+C:\Users\migun\Documents\GitHub\Practice\onemoretry\obj\Debug\Practice.csproj.AssemblyReference.cache
+C:\Users\migun\Documents\GitHub\Practice\onemoretry\obj\Debug\onemoretry.AddForm.resources
+C:\Users\migun\Documents\GitHub\Practice\onemoretry\obj\Debug\onemoretry.Ex1.resources
+C:\Users\migun\Documents\GitHub\Practice\onemoretry\obj\Debug\onemoretry.Ex2.resources
+C:\Users\migun\Documents\GitHub\Practice\onemoretry\obj\Debug\onemoretry.Form1.resources
+C:\Users\migun\Documents\GitHub\Practice\onemoretry\obj\Debug\onemoretry.Properties.Resources.resources
+C:\Users\migun\Documents\GitHub\Practice\onemoretry\obj\Debug\Practice.csproj.GenerateResource.cache
+C:\Users\migun\Documents\GitHub\Practice\onemoretry\obj\Debug\Practice.csproj.CoreCompileInputs.cache
+C:\Users\migun\Documents\GitHub\Practice\onemoretry\obj\Debug\onemoretry.exe
+C:\Users\migun\Documents\GitHub\Practice\onemoretry\obj\Debug\onemoretry.pdb
+C:\Users\migun\Documents\GitHub\Practice\onemoretry\obj\Debug\onemoretry.Ex3.resources

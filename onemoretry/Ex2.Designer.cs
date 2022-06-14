@@ -36,9 +36,12 @@ namespace onemoretry
             // 
             // ex2DataGridView
             // 
+            this.ex2DataGridView.AllowUserToAddRows = false;
+            this.ex2DataGridView.AllowUserToDeleteRows = false;
             this.ex2DataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.ex2DataGridView.Location = new System.Drawing.Point(12, 52);
             this.ex2DataGridView.Name = "ex2DataGridView";
+            this.ex2DataGridView.ReadOnly = true;
             this.ex2DataGridView.Size = new System.Drawing.Size(457, 345);
             this.ex2DataGridView.TabIndex = 0;
             // 

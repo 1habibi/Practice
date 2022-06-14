@@ -14,6 +14,7 @@ namespace onemoretry
     {
         public DataTable dt = new DataTable();
         public bool isOpen = false;
+        public int indexRow;
         public Form1()
         {
             InitializeComponent();
@@ -21,11 +22,21 @@ namespace onemoretry
         } 
         private void deleteButton_Click(object sender, EventArgs e)
         {
-            if(dataGridView1.CurrentCell != null)
+            //if(dataGridView1.CurrentCell != null)
+            //{
+            //    int rowIndex = dataGridView1.CurrentCell.RowIndex;
+            //    dataGridView1.Rows.RemoveAt(rowIndex);
+            //}
+            if (dataGridView1.CurrentCell != null)
             {
-                int rowIndex = dataGridView1.CurrentCell.RowIndex;
-                dataGridView1.Rows.RemoveAt(rowIndex);
-            }   
+                if (dataGridView1.SelectedCells.Count > 0)
+                {
+                    foreach (DataGridViewRow row in dataGridView1.SelectedRows)
+                    {
+                        dataGridView1.Rows.RemoveAt(row.Index);
+                    }
+                }
+            }
             // dataGridView1.Refresh();
         }
         private void exportButton_Click(object sender, EventArgs e)
@@ -124,9 +135,71 @@ namespace onemoretry
         }
 
         private void ex1Button_Click(object sender, EventArgs e)
+        {  
+            if (dataGridView1.SelectedCells.Count > 0)
+            {
+                Ex1 ex1 = new Ex1(this);
+                ex1.ShowDialog();
+            }   
+        }
+
+        private void ex2Button_Click(object sender, EventArgs e)
         {
-            Ex1 ex1 = new Ex1(this);
-            ex1.ShowDialog();
+            if (dataGridView1.SelectedCells.Count > 0)
+            {
+                Ex2 ex2 = new Ex2(this);
+                ex2.ShowDialog();
+            }    
+        }
+
+        private void ex3Button_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedCells.Count > 0)
+            {
+                Ex3 ex3 = new Ex3(this);
+                ex3.ShowDialog();
+            }
+        }
+
+        private void printDataGridView_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            Bitmap printDataGridViewBitmap = new Bitmap(this.dataGridView1.Width, this.dataGridView1.Height);
+            dataGridView1.DrawToBitmap(printDataGridViewBitmap, new Rectangle(0,0,this.dataGridView1.Width, this.dataGridView1.Height));
+            e.Graphics.DrawImage(printDataGridViewBitmap, 0, 0);
+        }
+
+        private void printButton_Click(object sender, EventArgs e)
+        {
+            PrintDialog printDataGridViewPrintDialog = new PrintDialog();
+            printDataGridViewPrintDialog.Document = printDataGridView;
+            printDataGridViewPrintDialog.UseEXDialog = true;
+
+            DialogResult printDataGridViewDialogResult = printDataGridViewPrintDialog.ShowDialog();
+
+            if(printDataGridViewDialogResult == DialogResult.OK)
+            {
+                printDataGridView.DocumentName = "Practice";
+                printDataGridView.Print();
+            }
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            indexRow = e.RowIndex;
+            DataGridViewRow row = dataGridView1.Rows[indexRow];
+            updateMarkTextBox.Text = row.Cells[0].Value.ToString();
+            updateMileageTextBox.Text = row.Cells[1].Value.ToString();
+            updateCostTextBox.Text = row.Cells[2].Value.ToString();
+
+
+        }
+
+        private void updateButton_Click(object sender, EventArgs e)
+        {
+            DataGridViewRow newDataRow = dataGridView1.Rows[indexRow];
+            newDataRow.Cells[0].Value = updateMarkTextBox.Text;
+            newDataRow.Cells[1].Value = updateMileageTextBox.Text;
+            newDataRow.Cells[2].Value = updateCostTextBox.Text;
         }
     }
 }
